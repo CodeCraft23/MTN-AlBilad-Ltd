@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <title>Matn AlBilad LTD - Projects</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6255250c8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="header-content-flex">
+          <a href="#" class="header-logo">
+            <img src="./assets/contact/logo.png" alt="Matn AlBilad LTD" />
+          </a>
+          <nav class="header-navbar">
+            <a href="./index.html" class="header-nav-link">Home</a>
+            <a href="./about-us.html" class="header-nav-link">About Us</a>
+            <a href="./projects.html" class="header-nav-link active"
+              >Projects</a
+            >
+            <a href="./career.html" class="header-nav-link">Career</a>
+            <a href="./contact-us.html" class="header-nav-link">Contact Us</a>
+            <span class="header-nav-hamburger">
+              <i id="hamburger-btn" class="fas fa-bars"></i>
+              <nav class="header-navbar-mobile">
+                <a href="./index.html" class="header-nav-link-mobile">Home</a>
+                <a href="./about-us.html" class="header-nav-link-mobile"
+                  >About Us</a
+                >
+                <a href="./projects.html" class="header-nav-link-mobile active"
+                  >Projects</a
+                >
+                <a href="./career.html" class="header-nav-link-mobile"
+                  >Career</a
+                >
+                <a href="./contact-us.html" class="header-nav-link-mobile"
+                  >Contact Us</a
+                >
+                <div class="header-nav-search-mobile">
+                  <input
+                    type="text"
+                    name="search"
+                    id="header-search-mobile"
+                    placeholder="Search"
+                    class="header-nav-search-input-mobile"
+                  />
+                  <i class="fas fa-search" id="search-btn-mobile"></i>
+                </div>
+              </nav>
+            </span>
+            <span class="header-nav-vertical-seperator"></span>
+            <div class="header-nav-search">
+              <input
+                type="text"
+                name="search"
+                id="header-search"
+                placeholder="Search"
+                class="header-nav-search-input"
+              />
+              <i class="fas fa-search" id="search-btn"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <section class="hero hero-project">
+        <div class="hero-content">
+          <img
+            src="./assets/projects/projects-top.png"
+            alt="Projects Typography"
+          />
+          <div class="hero-socials">
+            <a href="#" class="hero-socials-link"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="hero-socials-link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="hero-socials-link"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="hero-socials-link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <span class="hero-socials-vertical-seperator"></span>
+          </div>
+        </div>
+        <div class="container">
+          <h1 class="hero-title">Projects</h1>
+        </div>
+      </section>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Places -->
+      <section class="places">
+        <div class="container">
+          <div class="places-content">
+            <div class="places-left">
+              <span class="places-vertical-seperator"></span>
+              <p class="places-text">
+                Design-forward developments
+                <br />
+                for forward-thinking enterprises
+              </p>
+              <h3 class="places-title">
+                Places that <span> honor humanity</span>
+              </h3>
+            </div>
+            <div class="places-right">
+              <img src="./assets/projects/projects-decorative.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects">
+        <img src="./assets/projects/projects.png" alt="Project Picture" />
+        <div class="projects-content">
+          <div class="projects-select">
+            <div class="projects-select-navigation">
+              Select Projects <i class="fas fa-long-arrow-alt-right"></i>
+            </div>
+            <div class="projects-select-tabs">
+              <a
+                href="#"
+                class="projects-select-tab active"
+                data-tab="all-projects"
+                >All Projects</a
+              >
+              <a href="#" class="projects-select-tab" data-tab="urban">Urban</a>
+              <a href="#" class="projects-select-tab" data-tab="architecture"
+                >Architecture</a
+              >
+              <a href="#" class="projects-select-tab" data-tab="interior"
+                >Interior</a
+              >
+              <a href="#" class="projects-select-tab" data-tab="exterior"
+                >Exterior</a
+              >
+            </div>
+          </div>
+          <div class="projects-row-container">
+            <div id="all-projects" class="tab-content active">
+              <div class="projects-show">
+                <div class="project-show-large">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/king-abdullah.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">
+                      Prince Sattam bin AbdulAziz University Education College
+                    </h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Al-Kharj, Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-small">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-2-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Najran University Project</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="projects-show">
+                <div class="project-show-small">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/singapura.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-large">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-2-large.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">SysMex Project</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="projects-show">
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-3-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-4-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Civil Service Project</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-5-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                id="all-projects-btn"
+                class="project-more-btn all-projects-btn"
+              >
+                More Projects<i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          <div class="projects-row-container">
+            <div id="urban" class="tab-content">
+              <div class="projects-show">
+                <div class="project-show-large">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/king-abdullah.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">
+                      Prince Sattam bin AbdulAziz University Education College
+                    </h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Al-Kharj, Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-small">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-2-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">General Directorate of Prisons Project</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button id="urban-btn" class="project-more-btn urban-btn">
+                More Projects<i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          <div class="projects-row-container">
+            <div id="architecture" class="tab-content">
+              <div class="projects-show">
+                <div class="project-show-small">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/singapura.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-large">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-2-large.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="projects-show">
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-3-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-4-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-5-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                id="architecture-btn"
+                class="project-more-btn architecture-btn"
+              >
+                More Projects<i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          <div class="projects-row-container">
+            <div id="interior" class="tab-content">
+              <div class="projects-show">
+                <div class="project-show-large">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/king-abdullah.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">
+                      Prince Sattam bin AbdulAziz University Education College
+                    </h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Al-Kharj, Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-small">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-2-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button id="interior-btn" class="project-more-btn interior-btn">
+                More Projects<i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+          <div class="projects-row-container">
+            <div id="exterior" class="tab-content">
+              <div class="projects-show">
+                <div class="project-show-small">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/singapura.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-large">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-2-large.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="projects-show">
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-3-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-4-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-equal">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-5-small.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button id="exterior-btn" class="project-more-btn exterior-btn">
+                More Projects<i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get-In-Touch -->
+      <section class="get-contact">
+        <div class="get-contact-content">
+          <div class="get-contact-left">
+            <h3 class="get-contact-title">Need to get in touch?</h3>
+            <p class="get-contact-text">
+              No matter your question, we’re here to help. <br />
+              Give us a call or send an email.
+            </p>
+            <a href="#" class="get-contact-btn">
+              Contact Us <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+          </div>
+          <div class="get-contact-right">
+            <div class="get-contact-list">
+              <div class="get-contact-list-item">
+                <i class="fas fa-phone-alt"></i>
+                <div class="get-contact-list-item-content">
+                  <p class="get-contact-list-item-text">+966 - 56 888 8525</p>
+                  <p class="get-contact-list-item-text">+966 - 56 888 8525</p>
+                </div>
+              </div>
+              <div class="get-contact-list-item">
+                <i class="fas fa-envelope"></i>
+                <div class="get-contact-list-item-content">
+                  <p class="get-contact-list-item-text">info@matbltd.com</p>
+                  <p class="get-contact-list-item-text">contact@matbltd.com</p>
+                </div>
+              </div>
+              <div class="get-contact-list-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="get-contact-list-item-content">
+                  <p class="get-contact-list-item-text">
+                    Real Estate Sixtieth Al-Malaz
+                  </p>
+                  <p class="get-contact-list-item-text">
+                    Street,  Fourth Tower  
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <a href="#" class="footer-link">
+          <img
+            src="./assets/contact/footer-logo.png"
+            alt=" Matn Al-Bilad Logo"
+          />
+        </a>
+        <div class="footer-right">
+          <div class="footer-socials">
+            <a href="#" class="footer-socials-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer-socials-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-socials-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-socials-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <p class="footer-text">
+            &copy; 2023 Matn Al-Bilad. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./js/common.js"></script>
+    <script>
+      // Get all tab links and tab contents
+      const tabLinks = document.querySelectorAll('.projects-select-tab');
+      const tabContents = document.querySelectorAll('.tab-content');
+
+      // Add click event listeners to tab links
+      tabLinks.forEach(tabLink => {
+        tabLink.addEventListener('click', function (event) {
+          event.preventDefault();
+
+          // Hide all tab contents
+          tabContents.forEach(tabContent => {
+            tabContent.classList.remove('active');
+          });
+
+          // Show the corresponding tab content based on the data-tab attribute
+          const tabId = this.getAttribute('data-tab');
+          const tabContentToShow = document.getElementById(tabId);
+          tabContentToShow.classList.add('active');
+
+          // Update active class on the tab links
+          tabLinks.forEach(link => {
+            link.classList.remove('active');
+          });
+          this.classList.add('active');
+        });
+      });
+    </script>
+
+    <script>
+      // Function to generate a new row of projects
+      function createNewProjectRow(tabId) {
+        const tabContent = document.getElementById(tabId);
+        const newRow = document.createElement('div');
+        newRow.classList.add('projects-show');
+
+        // Create and add new project items to the row (adjust the content as needed)
+        newRow.innerHTML = `
+     <div class="project-show-small">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/singapura.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+                <div class="project-show-large">
+                  <div class="project-show-image-content">
+                    <img
+                      src="./assets/projects/project-2-large.png"
+                      alt="Project Picture"
+                    />
+                    <div class="project-show-image-content-data">
+                      <p class="project-show-image-content-text">
+                        Architecture
+                      </p>
+                      <span class="project-show-image-content-seperator"></span>
+                      <a href="#" class="project-show-image-content-link">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-show-content">
+                    <h3 class="project-show-title">Private Residence</h3>
+                    <p class="project-show-text">
+                      <i class="fas fa-map-marker-alt"></i> Riyadh, Kingdom of Saudi Arabia
+                    </p>
+                  </div>
+                </div>
+  `;
+
+        // Get the "More Projects" button for the current tab
+        const button = tabContent.querySelector('.project-more-btn');
+
+        // Insert the new row before the button
+        tabContent.insertBefore(newRow, button);
+      }
+
+      // Add click event listeners to each "More Projects" button
+      const allProjectsBtn = document.querySelector('.all-projects-btn');
+      allProjectsBtn.addEventListener('click', () =>
+        createNewProjectRow('all-projects')
+      );
+
+      const urbanBtn = document.querySelector('.urban-btn');
+      urbanBtn.addEventListener('click', () => createNewProjectRow('urban'));
+
+      const architectureBtn = document.querySelector('.architecture-btn');
+      architectureBtn.addEventListener('click', () =>
+        createNewProjectRow('architecture')
+      );
+
+      const interiorBtn = document.querySelector('.interior-btn');
+      interiorBtn.addEventListener('click', () =>
+        createNewProjectRow('interior')
+      );
+
+      const exteriorBtn = document.querySelector('.exterior-btn');
+      exteriorBtn.addEventListener('click', () =>
+        createNewProjectRow('exterior')
+      );
+    </script>
+  </body>
+</html>
