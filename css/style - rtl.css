@@ -24,6 +24,7 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   color: #ffffff;
+  direction: rtl;
 }
 
 img,
@@ -325,14 +326,12 @@ a {
 .hero-title {
   font-size: 8rem;
   font-weight: 700;
-  letter-spacing: 8px;
 }
 
 .hero-text {
   font-size: 3.4rem;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 10.2px;
 }
 
 .hire {
@@ -646,13 +645,11 @@ a {
   color: #262626;
   line-height: 7rem;
   margin-top: 2.5rem;
-  letter-spacing: 2.1px;
 }
 
 .places-title {
   font-size: 2.4rem;
   font-weight: 700;
-  letter-spacing: 10.4px;
   text-transform: uppercase;
   margin-top: 5rem;
 }
@@ -708,7 +705,6 @@ a {
   align-items: center;
   column-gap: 1.5rem;
   color: #51a5b3;
-  letter-spacing: 3.2px;
 }
 
 .projects-select-navigation > i {
@@ -755,7 +751,6 @@ a {
   justify-content: space-between;
   column-gap: 2.5rem;
   margin-top: 6rem;
-  padding:0px 20px 0px 20px;
 }
 
 .project-show-large {
@@ -787,7 +782,6 @@ a {
   writing-mode: vertical-lr;
   transform: scale(-1, -1);
   color: #ffffff;
-  letter-spacing: 10.3px;
 }
 
 .project-show-image-content-seperator {
@@ -851,7 +845,6 @@ a {
   align-items: center;
   column-gap: 1.5rem;
   color: #51a5b3;
-  letter-spacing: 3.2px;
   margin: 0 auto;
   margin-top: 8rem;
   cursor: pointer;
@@ -911,7 +904,6 @@ a {
   align-items: center;
   column-gap: 1.5rem;
   color: #ffffff;
-  letter-spacing: 3.2px;
   text-decoration: none;
   margin-top: 3.5rem;
 }
@@ -1011,7 +1003,6 @@ a {
   align-items: center;
   column-gap: 1.5rem;
   color: #51a5b3;
-  letter-spacing: 3.2px;
   margin-top: 5rem;
   margin-left: auto;
   text-decoration: none;
@@ -1069,7 +1060,6 @@ a {
 .about-mission-text {
   font-size: 2.8rem;
   line-height: 4.4rem;
-  letter-spacing: 2.1px;
   margin-top: 3.5rem;
   width: calc(100% - 27rem);
 }
@@ -1185,7 +1175,6 @@ a {
   font-weight: 400;
   line-height: 4rem;
   line-height: 7.8rem;
-  letter-spacing: 7.6px;
   color: #ffffff;
 }
 
@@ -1357,7 +1346,6 @@ a {
   writing-mode: vertical-lr;
   transform: scale(-1, -1);
   color: #ffffff;
-  letter-spacing: 10.3px;
 }
 
 .about-projects-left-image-content-seperator {
@@ -1418,7 +1406,6 @@ a {
   text-decoration: none;
   font-weight: 500;
   cursor: pointer;
-  letter-spacing: 3.2px;
   border: 2px solid transparent;
 }
 
@@ -1438,7 +1425,6 @@ a {
   align-items: center;
   column-gap: 1.5rem;
   color: #51a5b3;
-  letter-spacing: 3.2px;
   text-decoration: none;
 }
 
@@ -1500,7 +1486,6 @@ a {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 6.8rem;
-  letter-spacing: 6.4px;
   color: #ffffff;
 }
 
@@ -1554,7 +1539,6 @@ a {
   font-weight: 400;
   line-height: normal;
   color: #ffffff;
-  letter-spacing: 13.2px;
 }
 
 .banner-btn {
@@ -1570,7 +1554,6 @@ a {
   border-radius: 3.5rem;
   text-decoration: none;
   font-weight: 500;
-  letter-spacing: 3.2px;
   margin: 0 auto;
   margin-top: 3.5rem;
 }
@@ -1672,7 +1655,6 @@ a {
 .openings-items-text {
   font-size: 3.2rem;
   line-height: 6.8rem;
-  letter-spacing: 6.4px;
   width: 98%;
   margin-top: 10rem;
 }
@@ -1694,7 +1676,6 @@ a {
   cursor: pointer;
   text-decoration: none;
   border: 2px solid transparent;
-  letter-spacing: 3.2px;
 }
 
 .openings-items-btn > i {
@@ -1764,7 +1745,7 @@ a {
   color: #51a5b3;
   text-decoration: none;
   margin-top: 2.5rem;
-  letter-spacing: 3.2px;
+   
 }
 
 .internships-link:hover {
@@ -1813,7 +1794,6 @@ a {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 6.8rem;
-  letter-spacing: 6.4px;
   text-align: center;
   color: #ffffff;
 }
@@ -1918,7 +1898,7 @@ a {
   border-radius: 3.5rem;
   font-weight: 500;
   cursor: pointer;
-  letter-spacing: 3.2px;
+   
   text-decoration: none;
   border: 2px solid transparent;
 }
@@ -1993,7 +1973,6 @@ a {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 2.8px;
   margin-bottom: 0.85rem;
   color: #ffffff;
 }
@@ -2040,7 +2019,6 @@ a {
 .hero-slider-title {
   font-size: 8rem;
   font-weight: 700;
-  letter-spacing: 8px;
   line-height: normal;
 }
 
@@ -2056,7 +2034,6 @@ a {
   font-size: 4rem;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 23.4px;
   margin-top: 2rem;
 }
 
@@ -2146,7 +2123,6 @@ a {
   margin-top: 2rem;
   font-size: 2.4rem;
   font-weight: 500;
-  letter-spacing: 2.1px;
 }
 
 .we-list-item:first-child {
@@ -2156,7 +2132,6 @@ a {
 .we-tag {
   font-size: 2.6rem;
   font-weight: 700;
-  letter-spacing: 10.4px;
   margin-top: 10rem;
   text-transform: uppercase;
 }
@@ -2229,7 +2204,7 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-  letter-spacing: 3.2px;
+   
   margin-top: 2.5rem;
 }
 
@@ -2300,7 +2275,6 @@ a {
   writing-mode: vertical-lr;
   transform: scale(-1, -1);
   color: #ffffff;
-  letter-spacing: 10.3px;
 }
 
 .home-projects-card-seperator {
@@ -2396,7 +2370,7 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-  letter-spacing: 3.2px;
+   
   margin-top: 2.5rem;
 }
 
@@ -2424,7 +2398,6 @@ a {
   font-weight: 400;
   line-height: normal;
   color: #ffffff;
-  letter-spacing: 13.2px;
   text-align: center;
 }
 
@@ -2468,7 +2441,7 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-  letter-spacing: 3.2px;
+   
   margin-top: 2.5rem;
 }
 
@@ -2483,7 +2456,7 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-  letter-spacing: 3.2px;
+   
   margin-top: 2.5rem;
   font-size: 1.6rem;
   font-weight: 400;
@@ -2515,7 +2488,7 @@ a {
   margin-top: -1.5rem;
   color: #51a5b3;
   text-decoration: none;
-  letter-spacing: 3.2px;
+   
 }
 
 .blogs-link:hover {
@@ -2562,7 +2535,6 @@ a {
   writing-mode: vertical-lr;
   transform: scale(-1, -1);
   color: #ffffff;
-  letter-spacing: 9.3px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
