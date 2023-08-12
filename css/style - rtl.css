@@ -871,6 +871,7 @@ a {
 }
 
 .project-show-content {
+  padding: 0px 30px 0px 50px;
   margin-top: 3.5rem;
 }
 
@@ -918,10 +919,6 @@ a {
 .project-more-btn:hover {
   background-color: #51a5b3;
   color: #ffffff;
-}
-
-.projects-row-container {
-  padding: 0px 50px 0px 50px;
 }
 
 .get-contact {
