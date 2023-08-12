@@ -16,6 +16,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* @font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-REGULAR.ttf');
+  
+} */
+
 body {
   font-family: 'MadaniArabic', sans-serif;
   font-size: 1.6rem;
