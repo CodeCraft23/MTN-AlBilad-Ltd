@@ -223,6 +223,8 @@ a {
 
 .header-nav-search > i:hover {
   color: #51a5b3;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .header-nav-search-input {
@@ -325,7 +327,7 @@ a {
 
 .hero-title {
   font-size: 8rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .hero-text {
@@ -721,11 +723,13 @@ a {
 
 .projects-select-tab {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
 }
 
 .projects-select-tab:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   color: #51a5b3;
 }
 
@@ -885,12 +889,13 @@ a {
 
 .get-contact-title {
   font-size: 4.8rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .get-contact-text {
   font-size: 2.4rem;
   margin-top: 2.5rem;
+  font-weight: 400;
 }
 
 .get-contact-btn {
@@ -913,6 +918,8 @@ a {
 }
 
 .get-contact-btn:hover {
+   -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #51a5b3;
   color: #ffffff;
 }
@@ -1035,14 +1042,13 @@ a {
 
 .about-mission > img {
   max-width: 78rem;
-  width: 98%;
-  margin-left: auto;
+  width: 40%;
 }
 
 .about-mission-content {
   position: relative;
   z-index: 2;
-  margin-top: -2.5rem;
+  margin-top: -3rem;
   background-image: url('../assets/about/mission-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1062,12 +1068,13 @@ a {
   line-height: 4.4rem;
   margin-top: 3.5rem;
   width: calc(100% - 27rem);
+  font-weight: 400;
 }
 
 .about-mission-content > img {
   position: absolute;
   bottom: -35.5rem;
-  right: 5rem;
+  left: 5rem;
 }
 
 .about-mission-bottom-text {
@@ -1141,7 +1148,8 @@ a {
 
 .about-future-flex-vertical > img {
   max-width: 60rem;
-  width: 98%;
+  margin: 1rem 2rem 0 0;
+  width: 45%;
 }
 
 .about-future-flex-vertical-img {
@@ -1171,10 +1179,9 @@ a {
 }
 
 .about-future-flex-horizontal-text {
-  font-size: 3.8rem;
-  font-weight: 400;
-  line-height: 4rem;
-  line-height: 7.8rem;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 6rem;
   color: #ffffff;
 }
 
@@ -2130,9 +2137,9 @@ a {
 }
 
 .we-tag {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
   font-weight: 500;
-  margin-top: 10rem;
+  margin-top: 8rem;
   text-transform: uppercase;
 }
 
@@ -2209,6 +2216,8 @@ a {
 }
 
 .identity-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
@@ -2327,7 +2336,7 @@ a {
 
 .services > img {
   max-width: 80rem;
-  width: 98%;
+  width: 45%;
   margin-left: auto;
 }
 
@@ -2336,7 +2345,7 @@ a {
   justify-content: space-between;
   gap: 5rem;
   flex-wrap: wrap;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 .services-card {
@@ -2375,6 +2384,8 @@ a {
 }
 
 .services-card-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
@@ -2394,7 +2405,7 @@ a {
 }
 
 .services-banner-text {
-  font-size: 4.4rem;
+  font-size: 6rem;
   font-weight: 400;
   line-height: normal;
   color: #ffffff;
