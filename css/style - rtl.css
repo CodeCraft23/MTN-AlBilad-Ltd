@@ -302,7 +302,8 @@ a {
 .hero-socials {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: unset;
+  left: 1rem;
   transform: translateY(-5%);
   display: flex;
   align-items: center;
@@ -1939,12 +1940,14 @@ a {
   position: absolute;
   top: unset;
   bottom: 5rem;
-  right: 2.5rem;
+  right: unset;
+  left: 2rem;
   display: flex;
   align-items: center;
   flex-direction: column;
   row-gap: 2.5rem;
   z-index: 50;
+  align-content: flex-end;
 }
 
 .hero-swiper .swiper {
@@ -2052,8 +2055,8 @@ a {
 
 .hero-swiper .swiper-button-next,
 .hero-swiper .swiper-rtl .swiper-button-prev {
-  right: unset;
-  left: 15rem;
+  right:  8rem;
+  left: unset;
 }
 
 .hero-swiper .swiper-button-prev,
