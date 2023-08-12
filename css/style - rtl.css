@@ -1971,7 +1971,7 @@ a {
 
 .hero-scroll-down-text {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: normal;
   margin-bottom: 0.85rem;
   color: #ffffff;
@@ -2019,12 +2019,12 @@ a {
 .hero-slider-title {
   font-size: 8rem;
   font-weight: 700;
-  line-height: normal;
+  line-height: 60%;
 }
 
 .hero-slider-text {
-  font-size: 6rem;
-  font-weight: 300;
+  font-size: 7rem;
+  font-weight: 700;
   line-height: normal;
   margin-top: 1rem;
 }
@@ -2032,7 +2032,7 @@ a {
 .hero-slider-small-text {
   display: block;
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   margin-top: 2rem;
 }
@@ -2122,7 +2122,7 @@ a {
 .we-list-item {
   margin-top: 2rem;
   font-size: 2.4rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .we-list-item:first-child {
@@ -2131,7 +2131,7 @@ a {
 
 .we-tag {
   font-size: 2.6rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 10rem;
   text-transform: uppercase;
 }
@@ -2180,7 +2180,7 @@ a {
 
 .identity-title {
   font-size: 4rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
 }
 
