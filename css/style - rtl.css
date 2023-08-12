@@ -353,9 +353,9 @@ a {
 }
 
 .hero-content > img {
+  width: 60%;
   position: absolute;
   top: 5rem;
-  left: -25px;
 }
 
 .hero-socials {
@@ -392,7 +392,7 @@ a {
 
 .hero-text {
   font-size: 3.4rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: normal;
 }
 
@@ -404,9 +404,9 @@ a {
 .hire > img {
   position: absolute;
   top: 5rem;
-  left: 0;
+  right: 0;
   z-index: -1;
-  width: calc(100% - 61%);
+  width: 25%;
 }
 
 .hire-us {
@@ -445,7 +445,7 @@ a {
   border-bottom: 1px solid #d6d6d8;
   font-size: 1.6rem;
   font-weight: 400;
-  color: #717379;
+  color: #88898d;
 }
 
 .hire-us-form-btn {
@@ -466,6 +466,8 @@ a {
 }
 
 .hire-us-form-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
@@ -475,7 +477,7 @@ a {
   background-image: url('../assets/contact/hire-us-bg.png');
   background-size: cover;
   position: absolute;
-  right: 0;
+  left: 0;
   width: calc(((100vw - 140rem) / 2) + (140rem * 0.6));
   padding: 120px 35px 120px 75px;
   display: flex;
@@ -489,7 +491,7 @@ a {
   width: 16rem;
   position: absolute;
   bottom: -18rem;
-  right: 5rem;
+  left: 5rem;
 }
 
 .hire-us-image-content {
@@ -497,7 +499,7 @@ a {
 }
 
 .hire-us-image-title {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   line-height: 4.5rem;
   font-weight: 700;
   width: 83%;
@@ -623,6 +625,8 @@ a {
 }
 
 .hire-contact-form-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
@@ -1547,9 +1551,10 @@ a {
 }
 
 .values-image-text {
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: 500;
-  line-height: 6.8rem;
+  line-height: 6rem;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -1589,8 +1594,8 @@ a {
 
 .banner > img {
   position: absolute;
-  top: -38rem;
-  right: 5rem;
+  top: -10rem;
+  left: 5rem;
 }
 
 .banner-content {
@@ -1600,6 +1605,7 @@ a {
 
 .banner-title {
   font-size: 4.4rem;
+  text-align: center;
   font-weight: 400;
   line-height: normal;
   color: #ffffff;
@@ -1627,19 +1633,21 @@ a {
 }
 
 .banner-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
 }
 
 .openings {
-  margin-top: 10rem;
+  margin-top: 5rem;
   position: relative;
   color: #363636;
 }
 
 .openings > img {
   max-width: 150rem;
-  width: 98%;
+  width: 80%;
 }
 
 .openings-content {
@@ -1747,6 +1755,8 @@ a {
 }
 
 .openings-items-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
@@ -1760,7 +1770,7 @@ a {
 
 .internships > img {
   max-width: 100rem;
-  width: 98%;
+  width: 30%;
 }
 
 .internships-content {
@@ -1813,6 +1823,8 @@ a {
 }
 
 .internships-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
@@ -1821,7 +1833,7 @@ a {
   background-image: url('../assets/careers/internships-image.png');
   background-size: cover;
   position: absolute;
-  right: 0;
+  left: 0;
   width: calc(((100vw - 140rem) / 2) + (140rem * 0.55));
   height: 50rem;
 }
@@ -1855,8 +1867,8 @@ a {
 }
 
 .talent-bg-text {
-  font-size: 3.2rem;
-  font-weight: 500;
+  font-size: 5rem;
+  font-weight: 300;
   line-height: 6.8rem;
   text-align: center;
   color: #ffffff;
@@ -1869,7 +1881,6 @@ a {
 .talent-decorative > img {
   position: absolute;
   top: 5rem;
-  right: 2.5rem;
 }
 
 .growth {
@@ -1891,6 +1902,7 @@ a {
 
 .growth-image > img {
   width: 100%;
+  left: 0;
 }
 
 .gowth-item {
@@ -1900,7 +1912,6 @@ a {
 
 .gowth-item > img {
   position: absolute;
-  right: 0;
   z-index: -1;
   width: calc(100% - 60%);
 }
@@ -1972,6 +1983,8 @@ a {
 }
 
 .apply-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
