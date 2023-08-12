@@ -16,6 +16,65 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-REGULAR.ttf');
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-BLACK.ttf');
+  font-weight:900;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-BOLD.ttf');
+  font-weight:800;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-BOLD.ttf');
+  font-weight:700;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-SEMI-BOLD.ttf');
+  font-weight:600;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-MEDIUM.ttf');
+  font-weight:500;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-LIGHT.ttf');
+  font-weight:400;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-LIGHT.ttf');
+  font-weight:300;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-THIN.ttf');
+  font-weight:200;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-VARIABLE.ttf');
+  font-weight:100;
+}
+
 body {
   font-family: 'MadaniArabic', sans-serif;
   font-size: 1.6rem;
@@ -91,7 +150,7 @@ a {
 
 .header-nav-link {
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 200;
   text-decoration: none;
   padding: 8px 0;
   border: 1px solid transparent;
@@ -1182,7 +1241,7 @@ a {
 .about-future-flex-horizontal-text {
   font-size: 5rem;
   font-weight: 500;
-  line-height: 6rem;
+  line-height: 7rem;
   color: #ffffff;
 }
 
@@ -2460,6 +2519,8 @@ a {
 }
 
 .work-right-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
@@ -2477,6 +2538,8 @@ a {
 }
 
 .awards-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
