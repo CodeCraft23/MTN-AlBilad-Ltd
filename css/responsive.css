@@ -24,6 +24,16 @@
     display: none;
   }
 
+
+  @media (max-width: 1120px) {
+    .header-nav-flag {
+      display: none;}
+    }
+  
+    .header-nav-flag-res > img{
+    margin: 5% 0 0 42%;
+    }
+
   .header-nav-hamburger {
     display: block;
   }
@@ -80,6 +90,21 @@
     align-items: center;
     row-gap: 5rem;
   }
+
+  .get-contact-list-item {
+    margin: 30px 0px 0px 0px
+  }
+
+  .get-contact-list {
+    font-size: 0.9em;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2.5rem 3.5rem;
+    border-top: 1px solid #ffffff;
+}
 
   .get-contact-left,
   .get-contact-right {
@@ -150,6 +175,10 @@
     font-size: 3.6rem;
     letter-spacing: 5.5px;
     text-align: center;
+  }
+
+  .banner-btn {
+    width: 95%;
   }
 
   .openings-content,
@@ -464,7 +493,7 @@
 
   .awards-list-title,
   .openings-list-name {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .openings-items-text {
@@ -517,6 +546,7 @@
 
   .hire-contact-card,
   .hire-contact-form {
+    text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 25px 15px;
     width: 100%;
@@ -573,7 +603,7 @@
   .internships-subtitle,
   .growth-title,
   .identity-title {
-    font-size: 2.8rem;
+    font-size: 2.9rem;
   }
 
   .about-design-text,
@@ -664,6 +694,16 @@
     display: none;
   }
 
+  .hire-contact-card > img {
+    margin-left: 10rem;
+    height: 11rem;
+  }
+
+  .hire-contact-form > img {
+    margin-left: 8rem;
+    height: 11rem;
+}
+
   .footer-content {
     flex-direction: column;
     row-gap: 5rem;
@@ -673,9 +713,6 @@
   .awards-list-content,
   .openings-list-item,
   .openings-list-content {
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
   }
 
   .awards-list-item > span,
