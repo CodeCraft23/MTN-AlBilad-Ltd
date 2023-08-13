@@ -2240,7 +2240,6 @@ a {
   background-size: cover;
   background-position: center;
   position: absolute;
-  left: 0;
   width: calc(((100vw - 140rem) / 2) + (140rem * 0.6));
   height: 100%;
 }
@@ -2408,7 +2407,7 @@ a {
 
 .services > img {
   max-width: 80rem;
-  width: 45%;
+  width: 75%;
   margin-left: auto;
 }
 

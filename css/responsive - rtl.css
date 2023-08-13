@@ -2,6 +2,65 @@ body{
   direction: rtl;
 }
 
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-REGULAR.ttf');
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-BLACK.ttf');
+  font-weight:900;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-BOLD.ttf');
+  font-weight:800;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-BOLD.ttf');
+  font-weight:700;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-SEMI-BOLD.ttf');
+  font-weight:600;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-MEDIUM.ttf');
+  font-weight:500;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-LIGHT.ttf');
+  font-weight:400;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-LIGHT.ttf');
+  font-weight:300;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-THIN.ttf');
+  font-weight:200;
+}
+
+@font-face {
+  font-family: "MadaniArabic";
+  src: url('/assets/fonts/MADANI-ARABIC-VARIABLE.ttf');
+  font-weight:100;
+}
+
 @media (max-width: 1400px) {
   .growth-content {
     column-gap: 5rem;
@@ -237,26 +296,13 @@ body{
     width: 98%;
   }
 
-  .identity-content {
-    flex-direction: column;
-    row-gap: 5rem;
-  }
-
-  .identity-image {
-    position: static;
-    width: 100%;
-    height: 50rem;
-  }
-
-  .identity-item {
-    width: 100%;
-  }
-
+}
   .services-banner > img {
     display: none;
   }
 
   .services-banner {
+    margin: 2px 0px 0px 0px;
     padding: 150px 0;
   }
 
@@ -745,4 +791,18 @@ body{
     font-size: 2.4rem;
   }
 }
+
+.identity-content {
+  flex-direction: column;
+  row-gap: 5rem;
+}
+
+.identity-image {
+  position: static;
+  width: 100%;
+  height: 50rem;
+}
+
+.identity-item {
+  width: 100%;
 }
