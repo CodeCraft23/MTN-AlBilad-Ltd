@@ -29,6 +29,11 @@ body{
     display: none;
   }
 
+@media (max-width: 1120px) {
+  .header-nav-flag {
+    display: none;}
+  }
+
   .header-nav-hamburger {
     display: block;
   }

@@ -564,6 +564,8 @@ a {
 }
 
 .hire-contact-form-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
@@ -861,6 +863,8 @@ a {
 }
 
 .project-more-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #51a5b3;
   color: #ffffff;
 }
@@ -923,6 +927,8 @@ a {
 }
 
 .get-contact-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #51a5b3;
   color: #ffffff;
 }
@@ -1022,6 +1028,8 @@ a {
 }
 
 .about-design-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #51a5b3;
   color: #ffffff;
 }
@@ -1429,6 +1437,8 @@ a {
 }
 
 .about-projects-left-navigation-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
@@ -1582,6 +1592,8 @@ a {
 }
 
 .banner-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
 }
@@ -1704,6 +1716,8 @@ a {
 }
 
 .openings-items-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
@@ -1930,6 +1944,8 @@ a {
 }
 
 .apply-btn:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   background-color: #ffffff;
   color: #51a5b3;
   border: 2px solid #51a5b3;
@@ -2403,6 +2419,8 @@ a {
 }
 
 .services-card-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
@@ -2475,6 +2493,8 @@ a {
 }
 
 .work-right-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
@@ -2492,6 +2512,8 @@ a {
 }
 
 .awards-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }
