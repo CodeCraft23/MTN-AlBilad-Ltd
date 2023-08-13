@@ -733,6 +733,8 @@ a {
 }
 
 .projects-select-tab:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   color: #51a5b3;
 }
 
@@ -2247,6 +2249,8 @@ a {
 }
 
 .identity-link:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   font-weight: 500;
   color: #363636;
 }

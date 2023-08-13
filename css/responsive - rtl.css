@@ -495,8 +495,9 @@ body{
 
   .awards-list-title,
   .openings-list-name {
-    font-size: 1.8rem;
-  }
+    font-size: 1.6rem;
+    font-weight: 400;
+}
 
   .openings-items-text {
     font-size: 2.4rem;
@@ -546,6 +547,7 @@ body{
 
   .hire-contact-card,
   .hire-contact-form {
+    text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 25px 15px;
     width: 100%;
@@ -689,6 +691,16 @@ body{
     display: none;
   }
 
+  .hire-contact-card > img {
+    margin-right: 8rem;
+    height: 11rem;
+}
+
+.hire-contact-form > img {
+  margin-right: 8rem;
+  height: 11rem;
+}
+
   .footer-content {
     flex-direction: column;
     row-gap: 5rem;
@@ -698,7 +710,6 @@ body{
   .awards-list-content,
   .openings-list-item,
   .openings-list-content {
-    flex-direction: column;
     width: 100%;
     text-align: center;
   }
