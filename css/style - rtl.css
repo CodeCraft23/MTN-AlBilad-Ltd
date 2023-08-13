@@ -18,7 +18,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-MEDIUM.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-MEDIUM.ttf') format('ttf'),
       url('MadaniArabic-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
@@ -27,7 +27,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-BOLD.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-BOLD.ttf') format('ttf'),
       url('MadaniArabic-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
@@ -36,7 +36,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-LIGHT.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-LIGHT.ttf') format('ttf'),
       url('MadaniArabic-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
@@ -45,7 +45,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-LIGHT.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-EXTRA-LIGHT.ttf') format('ttf'),
       url('MadaniArabic-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
@@ -54,7 +54,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-BLACK.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-BLACK.ttf') format('ttf'),
       url('MadaniArabic-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
@@ -63,7 +63,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-BOLD.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-BOLD.ttf') format('ttf'),
       url('MadaniArabic-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
@@ -72,7 +72,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-SEMI-BOLD.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-SEMI-BOLD.ttf') format('ttf'),
       url('MadaniArabic-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
@@ -81,7 +81,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-REGULAR.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-REGULAR.ttf') format('ttf'),
       url('MadaniArabic-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -90,7 +90,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabicVariable';
-  src: url('/assets/fonts/MADANI-ARABIC-VARIABLE.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-VARIABLE.ttf') format('ttf'),
       url('MadaniArabicVariable.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -99,7 +99,7 @@ html {
 
 @font-face {
   font-family: 'MadaniArabic';
-  src: url('/assets/fonts/MADANI-ARABIC-THIN.ttf') format('woff2'),
+  src: url('/assets/fonts/MADANI-ARABIC-THIN.ttf') format('ttf'),
       url('MadaniArabic-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
