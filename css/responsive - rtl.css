@@ -100,6 +100,23 @@ body{
     width: 100%;
   }
 
+  
+  .get-contact-list{
+    font-size: 0.9em;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2.5rem 3.5rem;
+    border-top: 1px solid #ffffff;
+  }
+
+  .get-contact-list-item{
+    margin: 30px 0px 0px 0px;
+  }
+
+
   .about-design-content,
   .about-explore-content {
     column-gap: 5rem;
@@ -162,7 +179,6 @@ body{
 
   .banner-title {
     font-size: 3.6rem;
-     : 5.5px;
     text-align: center;
   }
 
@@ -320,7 +336,7 @@ body{
 
   .about-mission-text {
     width: 100%;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     line-height: normal;
   }
 
@@ -383,7 +399,6 @@ body{
 
   .hero-slider-title {
     font-size: 7rem;
-     : normal;
   }
 
   .hero-slider-text {
@@ -392,7 +407,6 @@ body{
 
   .hero-slider-small-text {
     font-size: 3rem;
-     : 21.5px;
   }
 
   .hero-swiper .swiper-button-next,
@@ -445,7 +459,6 @@ body{
 
   .hero-title {
     font-size: 5rem;
-     : 0;
   }
 
   .hero-content > img {
@@ -481,7 +494,6 @@ body{
   .openings-items-text {
     font-size: 2.4rem;
     line-height: normal;
-     : 2.5px;
     width: 100%;
     margin-top: 8rem;
   }
@@ -515,7 +527,6 @@ body{
   .hero-slider-small-text {
     font-size: 3.5rem;
     font-weight: 300;
-     : normal;
     margin-top: 1rem;
   }
 }
@@ -604,10 +615,9 @@ body{
   }
 
   .about-future-flex-horizontal-text {
-    font-size: 2.7rem;
+    font-size: 4rem;
     line-height: 4rem;
     line-height: 5.5rem;
-     : 2.5px;
     padding: 0 10px;
   }
 
@@ -622,13 +632,12 @@ body{
   .values-image-text {
     font-size: 2.4rem;
     line-height: 4.6rem;
-     : 2.5px;
+
   }
 
   .talent-bg-text {
     font-size: 2.4rem;
     line-height: 4.6rem;
-     : 2.5px;
   }
 
   .header-nav-vertical-seperator {
@@ -654,12 +663,10 @@ body{
   .we-list-item {
     margin-top: 1.5rem;
     font-size: 2rem;
-     : normal;
   }
 
   .we-tag {
     font-size: 2.4rem;
-     : 5.4px;
     margin-top: 5rem;
   }
 }
