@@ -149,6 +149,11 @@ h6 {
 
 a {
   color: unset;
+  transition: color 0.5s linear; /* vendorless fallback */
+    -o-transition: color 0.5s linear; /* opera */
+    -ms-transition: color 0.5s linear; /* IE 10 */
+    -moz-transition: color 0.5s linear; /* Firefox */
+    -webkit-transition: color 0.5s linear; /*safari and chrome */
 }
 
 .container {
@@ -496,6 +501,7 @@ a {
   font-weight: 500;
   cursor: pointer;
   border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .hire-us-form-btn:hover {
@@ -656,6 +662,7 @@ a {
   font-weight: 500;
   cursor: pointer;
   border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .hire-contact-form-btn:hover {
@@ -893,7 +900,7 @@ a {
   height: 7.5rem;
   background-color: #ffffff;
   margin-top: 5rem;
-  margin-left: 1.35rem;
+  margin-right: 1.1rem;
 }
 
 .project-show-image-content-link {
@@ -1007,6 +1014,8 @@ a {
   color: #ffffff;
   text-decoration: none;
   margin-top: 3.5rem;
+  transition: all 0.3s ease-in-out;
+
 }
 
 .get-contact-btn > i {
@@ -1664,6 +1673,7 @@ a {
   font-weight: 500;
   margin: 0 auto;
   margin-top: 3.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .banner-btn > i {
@@ -1785,6 +1795,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .openings-items-btn > i {
@@ -2010,9 +2021,9 @@ a {
   border-radius: 3.5rem;
   font-weight: 500;
   cursor: pointer;
-   
   text-decoration: none;
   border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .apply-btn > i {
@@ -2327,7 +2338,6 @@ a {
 .identity-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 
@@ -2488,14 +2498,12 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-   
   margin-top: 2.5rem;
 }
 
 .services-card-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 
@@ -2568,7 +2576,6 @@ a {
 .work-right-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 
@@ -2587,7 +2594,6 @@ a {
 .awards-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 

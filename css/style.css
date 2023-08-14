@@ -402,6 +402,7 @@ a {
   font-weight: 500;
   cursor: pointer;
   border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .hire-us-form-btn:hover {
@@ -561,6 +562,7 @@ a {
   font-weight: 500;
   cursor: pointer;
   border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .hire-contact-form-btn:hover {
@@ -918,6 +920,7 @@ a {
   letter-spacing: 3.2px;
   text-decoration: none;
   margin-top: 3.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .get-contact-btn > i {
@@ -925,7 +928,6 @@ a {
 }
 
 .get-contact-btn:hover {
-  -webkit-transition: all 1s ease;
   transition: all 1s ease;
   background-color: #51a5b3;
   color: #ffffff;
@@ -1583,6 +1585,7 @@ a {
   letter-spacing: 3.2px;
   margin: 0 auto;
   margin-top: 3.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .banner-btn > i {
@@ -1707,6 +1710,7 @@ a {
   text-decoration: none;
   border: 2px solid transparent;
   letter-spacing: 3.2px;
+  transition: all 0.3s ease-in-out;
 }
 
 .openings-items-btn > i {
@@ -1935,6 +1939,7 @@ a {
   letter-spacing: 3.2px;
   text-decoration: none;
   border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .apply-btn > i {
@@ -2252,7 +2257,6 @@ a {
 .identity-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 
@@ -2421,7 +2425,6 @@ a {
 .services-card-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 
@@ -2495,7 +2498,6 @@ a {
 .work-right-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 
@@ -2514,7 +2516,6 @@ a {
 .awards-link:hover {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-  font-weight: 500;
   color: #363636;
 }
 
