@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.5;
@@ -121,7 +121,8 @@ a {
   -webkit-backdrop-filter: blur(10px);
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
@@ -266,22 +267,22 @@ a {
 
 .hero-contact {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/contact/contact-hero.png') top/cover no-repeat;
+    url("../assets/contact/contact-hero.png") top/cover no-repeat;
 }
 
 .hero-project {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/projects/project-hero.png') top/cover no-repeat;
+    url("../assets/projects/project-hero.png") top/cover no-repeat;
 }
 
 .hero-about {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/about/about-hero.png') top/cover no-repeat;
+    url("../assets/about/about-hero.png") top/cover no-repeat;
 }
 
 .hero-career {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/careers/career-hero.png') top/cover no-repeat;
+    url("../assets/careers/career-hero.png") top/cover no-repeat;
 }
 
 .hero-content {
@@ -414,7 +415,7 @@ a {
 }
 
 .hire-us-image {
-  background-image: url('../assets/contact/hire-us-bg.png');
+  background-image: url("../assets/contact/hire-us-bg.png");
   background-size: cover;
   position: absolute;
   right: 0;
@@ -763,7 +764,7 @@ a {
   justify-content: space-between;
   column-gap: 2.5rem;
   margin-top: 6rem;
-  padding:0px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .project-show-large {
@@ -1062,7 +1063,7 @@ a {
   position: relative;
   z-index: 2;
   margin-top: -2.5rem;
-  background-image: url('../assets/about/mission-bg.png');
+  background-image: url("../assets/about/mission-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1180,7 +1181,7 @@ a {
 }
 
 .about-future-flex-horizontal {
-  background-image: url('../assets/about/future-bg.png');
+  background-image: url("../assets/about/future-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1496,7 +1497,7 @@ a {
 }
 
 .values-image {
-  background-image: url('../assets/careers/career-value.png');
+  background-image: url("../assets/careers/career-value.png");
   background-size: cover;
   position: absolute;
   left: 0;
@@ -1544,7 +1545,7 @@ a {
 
 .banner {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/careers/career-banner.png') center/cover no-repeat;
+    url("../assets/careers/career-banner.png") center/cover no-repeat;
   margin-top: 10rem;
   padding: 250px 0;
   position: relative;
@@ -1791,7 +1792,7 @@ a {
 }
 
 .internships-image {
-  background-image: url('../assets/careers/internships-image.png');
+  background-image: url("../assets/careers/internships-image.png");
   background-size: cover;
   position: absolute;
   right: 0;
@@ -1815,7 +1816,7 @@ a {
 }
 
 .talent-bg {
-  background-image: url('../assets/careers/talent-bg.png');
+  background-image: url("../assets/careers/talent-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1903,7 +1904,7 @@ a {
 .apply {
   margin-top: 10rem;
   position: relative;
-  background-image: url('../assets/careers/apply.png');
+  background-image: url("../assets/careers/apply.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2025,7 +2026,7 @@ a {
       rgba(0, 0, 0, 0.25) 0%,
       rgba(0, 0, 0, 0.25) 100%
     ),
-    url('../assets/home/photo-1.png');
+    url("../assets/home/photo-1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2038,7 +2039,7 @@ a {
       rgba(0, 0, 0, 0.25) 0%,
       rgba(0, 0, 0, 0.25) 100%
     ),
-    url('../assets/home/photo-2.png');
+    url("../assets/home/photo-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2051,7 +2052,7 @@ a {
       rgba(0, 0, 0, 0.25) 0%,
       rgba(0, 0, 0, 0.25) 100%
     ),
-    url('../assets/home/photo-3.png');
+    url("../assets/home/photo-3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2100,16 +2101,16 @@ a {
 
 .hero-swiper .swiper-button-prev:after,
 .hero-swiper .swiper-rtl .swiper-button-next:after {
-  content: '\f30a';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f30a";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #ffffff;
 }
 
 .hero-swiper .swiper-button-next:after,
 .hero-swiper .swiper-rtl .swiper-button-prev:after {
-  content: '\f30b';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f30b";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #ffffff;
 }
@@ -2203,7 +2204,7 @@ a {
 }
 
 .identity-image {
-  background-image: url('../assets/home/identity-photo.png');
+  background-image: url("../assets/home/identity-photo.png");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2430,7 +2431,7 @@ a {
 
 .services-banner {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/home/services-banner.png') center/cover no-repeat;
+    url("../assets/home/services-banner.png") center/cover no-repeat;
   padding: 250px 0;
   position: relative;
   margin-top: -2.5rem;

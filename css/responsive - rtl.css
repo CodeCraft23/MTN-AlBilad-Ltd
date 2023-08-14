@@ -1,4 +1,4 @@
-body{
+body {
   direction: rtl;
 }
 
@@ -28,13 +28,14 @@ body{
     display: none;
   }
 
-@media (max-width: 1120px) {
-  .header-nav-flag {
-    display: none;}
+  @media (max-width: 1120px) {
+    .header-nav-flag {
+      display: none;
+    }
   }
 
-  .header-nav-flag-res > img{
-  margin: 5% 42% 0 0;
+  .header-nav-flag-res > img {
+    margin: 5% 42% 0 0;
   }
 
   .header-nav-hamburger {
@@ -99,8 +100,7 @@ body{
     width: 100%;
   }
 
-  
-  .get-contact-list{
+  .get-contact-list {
     font-size: 0.9em;
     display: block;
     text-align: center;
@@ -111,10 +111,9 @@ body{
     border-top: 1px solid #ffffff;
   }
 
-  .get-contact-list-item{
+  .get-contact-list-item {
     margin: 30px 0px 0px 0px;
   }
-
 
   .about-design-content,
   .about-explore-content {
@@ -165,39 +164,39 @@ body{
     z-index: -1;
   }
 
-    .values-content {
-      flex-direction: column;
-      row-gap: 5rem;
-    }
+  .values-content {
+    flex-direction: column;
+    row-gap: 5rem;
+  }
 
-    .values-image {
-      position: static;
-      width: 100%;
-      order: 2;
-    }
-  
-    .values-item {
-      width: 100%;
-      padding-bottom: 0;
-    }
-  
-    .banner {
-      padding: 150px 0;
-    }
-  
-    .banner-title {
-      font-size: 3.6rem;
-      text-align: center;
-    }
-  
-    .banner-btn {
-      width: 95%;
-    }
-  
-    .openings-content,
-    .openings-list-item {
-      column-gap: 5rem;
-    }
+  .values-image {
+    position: static;
+    width: 100%;
+    order: 2;
+  }
+
+  .values-item {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .banner {
+    padding: 150px 0;
+  }
+
+  .banner-title {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  .banner-btn {
+    width: 95%;
+  }
+
+  .openings-content,
+  .openings-list-item {
+    column-gap: 5rem;
+  }
 
   .internships-image {
     display: none;
@@ -264,24 +263,23 @@ body{
   .header-nav-search {
     display: none;
   }
-
 }
-  .services-banner > img {
-    display: none;
-  }
+.services-banner > img {
+  display: none;
+}
 
-  .services-banner {
-    margin: 2px 0px 0px 0px;
-    padding: 150px 0;
-  }
+.services-banner {
+  margin: 2px 0px 0px 0px;
+  padding: 150px 0;
+}
 
-  .services-banner-title {
-    font-size: 3.6rem;
-  }
+.services-banner-title {
+  font-size: 3.6rem;
+}
 
-  .work-center-image {
-    width: 20rem;
-  }
+.work-center-image {
+  width: 20rem;
+}
 
 @media (max-width: 950px) {
   .places-right {
@@ -357,7 +355,7 @@ body{
 
   .about-mission-text {
     width: 100%;
-    font-size: 2.0rem;
+    font-size: 2rem;
     line-height: normal;
   }
 
@@ -387,9 +385,6 @@ body{
   .about-projects-right {
     display: none;
   }
-
-
-
 
   .about-projects-left {
     width: 100%;
@@ -439,7 +434,7 @@ body{
   .hero-swiper .swiper-rtl .swiper-button-next {
     display: none;
   }
-  
+
   .we-content {
     flex-direction: column;
   }
@@ -507,18 +502,18 @@ body{
   .openings-list-name {
     font-size: 1.6rem;
     font-weight: 400;
-}
+  }
 
-.openings-items-text {
-  font-size: 2.4rem;
-  line-height: normal;
-  width: 100%;
-  margin-top: 8rem;
-}
+  .openings-items-text {
+    font-size: 2.4rem;
+    line-height: normal;
+    width: 100%;
+    margin-top: 8rem;
+  }
 
-.openings-items-btn {
-  margin-top: 5rem;
-}
+  .openings-items-btn {
+    margin-top: 5rem;
+  }
 
   .apply {
     height: 45rem;
@@ -649,7 +644,6 @@ body{
   .values-image-text {
     font-size: 2.4rem;
     line-height: 4.6rem;
-
   }
 
   .talent-bg-text {
@@ -703,12 +697,12 @@ body{
   .hire-contact-card > img {
     margin-right: 10rem;
     height: 11rem;
-}
+  }
 
-.hire-contact-form > img {
-  margin-right: 8rem;
-  height: 11rem;
-}
+  .hire-contact-form > img {
+    margin-right: 8rem;
+    height: 11rem;
+  }
 
   .footer-content {
     flex-direction: column;
@@ -722,7 +716,6 @@ body{
     margin-top: 1px;
     column-gap: 5rem;
   }
-
 
   .awards-list-item > span,
   .openings-list-item > span {

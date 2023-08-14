@@ -24,16 +24,15 @@
     display: none;
   }
 
-  
-
   @media (max-width: 1120px) {
     .header-nav-flag {
-      display: none;}
+      display: none;
     }
-  
-    .header-nav-flag-res > img{
+  }
+
+  .header-nav-flag-res > img {
     margin: 5% 0 0 42%;
-    }
+  }
 
   .header-nav-hamburger {
     display: block;
@@ -93,7 +92,7 @@
   }
 
   .get-contact-list-item {
-    margin: 30px 0px 0px 0px
+    margin: 30px 0px 0px 0px;
   }
 
   .get-contact-list {
@@ -105,7 +104,7 @@
     align-items: center;
     gap: 2.5rem 3.5rem;
     border-top: 1px solid #ffffff;
-}
+  }
 
   .get-contact-left,
   .get-contact-right {
@@ -376,9 +375,6 @@
   .about-projects-right {
     display: none;
   }
-
-
-
 
   .about-projects-left {
     width: 100%;
@@ -703,7 +699,7 @@
   .hire-contact-form > img {
     margin-left: 8rem;
     height: 11rem;
-}
+  }
 
   .footer-content {
     flex-direction: column;

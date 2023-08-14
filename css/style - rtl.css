@@ -15,103 +15,103 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   user-select: none;
-         -moz-user-select: none;
-         -webkit-text-select: none;
-         -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-text-select: none;
+  -webkit-user-select: none;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-Black.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-Black.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-Black.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-Medium.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-Medium.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-Medium.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-Regular.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-Regular.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-Regular.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabicVariable';
-  src: url('webfonts/subset-MadaniArabicVariable.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabicVariable.woff') format('woff');
+  font-family: "MadaniArabicVariable";
+  src: url("webfonts/subset-MadaniArabicVariable.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabicVariable.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-Light.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-Light.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-Light.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-Bold.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-Bold.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-Bold.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-ExtraBold.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-ExtraBold.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-ExtraBold.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-ExtraLight.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-ExtraLight.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-ExtraLight.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-SemiBold.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-SemiBold.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-SemiBold.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: block;
 }
 
 @font-face {
-  font-family: 'MadaniArabic';
-  src: url('webfonts/subset-MadaniArabic-Thin.woff2') format('woff2'),
-      url('webfonts/subset-MadaniArabic-Thin.woff') format('woff');
+  font-family: "MadaniArabic";
+  src: url("webfonts/subset-MadaniArabic-Thin.woff2") format("woff2"),
+    url("webfonts/subset-MadaniArabic-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: block;
 }
 
 body {
-  font-family: 'MadaniArabic', sans-serif;
+  font-family: "MadaniArabic", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.5;
@@ -150,10 +150,10 @@ h6 {
 a {
   color: unset;
   transition: color 0.5s linear; /* vendorless fallback */
-    -o-transition: color 0.5s linear; /* opera */
-    -ms-transition: color 0.5s linear; /* IE 10 */
-    -moz-transition: color 0.5s linear; /* Firefox */
-    -webkit-transition: color 0.5s linear; /*safari and chrome */
+  -o-transition: color 0.5s linear; /* opera */
+  -ms-transition: color 0.5s linear; /* IE 10 */
+  -moz-transition: color 0.5s linear; /* Firefox */
+  -webkit-transition: color 0.5s linear; /*safari and chrome */
 }
 
 .container {
@@ -209,20 +209,21 @@ a {
 
 .header-navbar-mobile {
   position: absolute;
-    top: 5rem;
-    left: -1rem;
-    z-index: 10;
-    width: 25rem;
-    padding: 15px 15px 20px;
-    display: none;
-    flex-direction: column;
-    background: rgb(14 31 33 / 53%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 5rem;
+  left: -1rem;
+  z-index: 10;
+  width: 25rem;
+  padding: 15px 15px 20px;
+  display: none;
+  flex-direction: column;
+  background: rgb(14 31 33 / 53%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .header-navbar-mobile.active {
@@ -366,22 +367,22 @@ a {
 
 .hero-contact {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/contact/contact-hero.png') top/cover no-repeat;
+    url("../assets/contact/contact-hero.png") top/cover no-repeat;
 }
 
 .hero-project {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/projects/project-hero.png') top/cover no-repeat;
+    url("../assets/projects/project-hero.png") top/cover no-repeat;
 }
 
 .hero-about {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/about/about-hero.png') top/cover no-repeat;
+    url("../assets/about/about-hero.png") top/cover no-repeat;
 }
 
 .hero-career {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/careers/career-hero.png') top/cover no-repeat;
+    url("../assets/careers/career-hero.png") top/cover no-repeat;
 }
 
 .hero-content {
@@ -513,7 +514,7 @@ a {
 }
 
 .hire-us-image {
-  background-image: url('../assets/contact/hire-us-bg.png');
+  background-image: url("../assets/contact/hire-us-bg.png");
   background-size: cover;
   position: absolute;
   left: 0;
@@ -531,7 +532,7 @@ a {
   position: absolute;
   bottom: -18rem;
   left: 5rem;
-  transform: scaleX(-1)
+  transform: scaleX(-1);
 }
 
 .hire-us-image-content {
@@ -772,7 +773,7 @@ a {
 
 .places-right > img {
   width: 100%;
-  transform: scaleX(-1)
+  transform: scaleX(-1);
 }
 
 .projects {
@@ -1015,7 +1016,6 @@ a {
   text-decoration: none;
   margin-top: 3.5rem;
   transition: all 0.3s ease-in-out;
-
 }
 
 .get-contact-btn > i {
@@ -1023,7 +1023,7 @@ a {
 }
 
 .get-contact-btn:hover {
-   -webkit-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
   transition: all 1s ease;
   background-color: #51a5b3;
   color: #ffffff;
@@ -1155,7 +1155,7 @@ a {
   position: relative;
   z-index: 2;
   margin-top: -3rem;
-  background-image: url('../assets/about/mission-bg.png');
+  background-image: url("../assets/about/mission-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1274,7 +1274,7 @@ a {
 }
 
 .about-future-flex-horizontal {
-  background-image: url('../assets/about/future-bg.png');
+  background-image: url("../assets/about/future-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1583,7 +1583,7 @@ a {
 }
 
 .values-image {
-  background-image: url('../assets/careers/career-value.png');
+  background-image: url("../assets/careers/career-value.png");
   background-size: cover;
   position: absolute;
   left: 0;
@@ -1632,7 +1632,7 @@ a {
 
 .banner {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/careers/career-banner.png') center/cover no-repeat;
+    url("../assets/careers/career-banner.png") center/cover no-repeat;
   margin-top: 10rem;
   padding: 250px 0;
   position: relative;
@@ -1867,7 +1867,6 @@ a {
   color: #51a5b3;
   text-decoration: none;
   margin-top: 2.5rem;
-   
 }
 
 .internships-link:hover {
@@ -1878,7 +1877,7 @@ a {
 }
 
 .internships-image {
-  background-image: url('../assets/careers/internships-image.png');
+  background-image: url("../assets/careers/internships-image.png");
   background-size: cover;
   position: absolute;
   left: 0;
@@ -1902,7 +1901,7 @@ a {
 }
 
 .talent-bg {
-  background-image: url('../assets/careers/talent-bg.png');
+  background-image: url("../assets/careers/talent-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1929,7 +1928,7 @@ a {
 .talent-decorative > img {
   position: absolute;
   top: 5rem;
-  transform: scaleX(-1)
+  transform: scaleX(-1);
 }
 
 .growth {
@@ -1988,7 +1987,7 @@ a {
 .apply {
   margin-top: 10rem;
   position: relative;
-  background-image: url('../assets/careers/apply.png');
+  background-image: url("../assets/careers/apply.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2110,7 +2109,7 @@ a {
       rgba(0, 0, 0, 0.25) 0%,
       rgba(0, 0, 0, 0.25) 100%
     ),
-    url('../assets/home/photo-1.png');
+    url("../assets/home/photo-1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2123,7 +2122,7 @@ a {
       rgba(0, 0, 0, 0.25) 0%,
       rgba(0, 0, 0, 0.25) 100%
     ),
-    url('../assets/home/photo-2.png');
+    url("../assets/home/photo-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2136,7 +2135,7 @@ a {
       rgba(0, 0, 0, 0.25) 0%,
       rgba(0, 0, 0, 0.25) 100%
     ),
-    url('../assets/home/photo-3.png');
+    url("../assets/home/photo-3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2172,7 +2171,7 @@ a {
 
 .hero-swiper .swiper-button-next,
 .hero-swiper .swiper-rtl .swiper-button-prev {
-  right:  8rem;
+  right: 8rem;
   left: unset;
 }
 
@@ -2183,16 +2182,16 @@ a {
 
 .hero-swiper .swiper-button-prev:after,
 .hero-swiper .swiper-rtl .swiper-button-next:after {
-  content: '\f30a';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f30a";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #ffffff;
 }
 
 .hero-swiper .swiper-button-next:after,
 .hero-swiper .swiper-rtl .swiper-button-prev:after {
-  content: '\f30b';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f30b";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #ffffff;
 }
@@ -2284,7 +2283,7 @@ a {
 }
 
 .identity-image {
-  background-image: url('../assets/home/identity-photo.png');
+  background-image: url("../assets/home/identity-photo.png");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -2331,7 +2330,7 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-   
+
   margin-top: 2.5rem;
 }
 
@@ -2509,7 +2508,7 @@ a {
 
 .services-banner {
   background: linear-gradient(rgba(43, 45, 49, 0.2), rgba(43, 45, 49, 0.2)),
-    url('../assets/home/services-banner.png') center/cover no-repeat;
+    url("../assets/home/services-banner.png") center/cover no-repeat;
   padding: 250px 0;
   position: relative;
   margin-top: -2.5rem;
@@ -2569,7 +2568,7 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-   
+
   margin-top: 2.5rem;
 }
 
@@ -2585,7 +2584,7 @@ a {
   column-gap: 1.5rem;
   color: #51a5b3;
   text-decoration: none;
-   
+
   margin-top: 2.5rem;
   font-size: 1.6rem;
   font-weight: 400;
@@ -2618,7 +2617,6 @@ a {
   margin-top: -1.5rem;
   color: #51a5b3;
   text-decoration: none;
-   
 }
 
 .blogs-link:hover {
