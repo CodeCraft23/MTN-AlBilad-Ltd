@@ -17,112 +17,97 @@ html {
 }
 
 @font-face {
-  font-family: 'madaniarabic-regularregular';
-  src: url('madani_arabic_regular_400-webfont.woff2') format('woff2'),
-       url('madani_arabic_regular_400-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-Black.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-Black.woff') format('woff');
+  font-weight: 900;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
-
 @font-face {
-  font-family: 'madaniarabicvariableregular';
-  src: url('madani_arabic_variable_400-webfont.woff2') format('woff2'),
-       url('madani_arabic_variable_400-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-Medium.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-Medium.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
-
 @font-face {
-  font-family: 'madaniarabic-blackregular';
-  src: url('madani-arabic-black-webfont.woff2') format('woff2'),
-       url('madani-arabic-black-webfont.woff') format('woff');
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-Regular.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
-
 @font-face {
-  font-family: 'madaniarabic-boldregular';
-  src: url('madani-arabic-bold-webfont.woff2') format('woff2'),
-       url('madani-arabic-bold-webfont.woff') format('woff');
+  font-family: 'MadaniArabicVariable';
+  src: url('webfonts/subset-MadaniArabicVariable.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabicVariable.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
-
 @font-face {
-  font-family: 'madaniarabic-extraboldregular';
-  src: url('madani-arabic-extra-bold-webfont.woff2') format('woff2'),
-       url('madani-arabic-extra-bold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-Light.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-Light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
-
 @font-face {
-  font-family: 'madaniarabic-extralightRg';
-  src: url('madani-arabic-extra-light-webfont.woff2') format('woff2'),
-       url('madani-arabic-extra-light-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-Bold.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-Bold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
-
 @font-face {
-  font-family: 'madaniarabic-lightregular';
-  src: url('madani-arabic-light-webfont.woff2') format('woff2'),
-       url('madani-arabic-light-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-ExtraBold.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-ExtraBold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
-
 @font-face {
-  font-family: 'madaniarabic-mediumregular';
-  src: url('madani-arabic-medium-webfont.woff2') format('woff2'),
-       url('madani-arabic-medium-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-ExtraLight.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-ExtraLight.woff') format('woff');
+  font-weight: 200;
   font-style: normal;
-
+  font-display: block;
 }
 
-
-
+@font-face {
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-SemiBold.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
 
 @font-face {
-  font-family: 'madaniarabic-semiboldregular';
-  src: url('madani-arabic-semi-bold-webfont.woff2') format('woff2'),
-       url('madani-arabic-semi-bold-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'MadaniArabic';
+  src: url('webfonts/subset-MadaniArabic-Thin.woff2') format('woff2'),
+      url('webfonts/subset-MadaniArabic-Thin.woff') format('woff');
+  font-weight: 100;
   font-style: normal;
-
+  font-display: block;
 }
 
 body {
-  font-family: 'madaniarabic-boldregular';
+  font-family: 'MadaniArabic', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.5;
