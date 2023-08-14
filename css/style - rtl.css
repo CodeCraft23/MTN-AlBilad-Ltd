@@ -513,6 +513,7 @@ a {
   position: absolute;
   bottom: -18rem;
   left: 5rem;
+  transform: scaleX(-1)
 }
 
 .hire-us-image-content {
