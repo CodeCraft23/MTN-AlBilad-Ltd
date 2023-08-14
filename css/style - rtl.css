@@ -2261,6 +2261,7 @@ a {
   background-size: cover;
   background-position: center;
   position: absolute;
+  right: 0;
   width: calc(((100vw - 140rem) / 2) + (140rem * 0.6));
   height: 100%;
 }
@@ -2274,11 +2275,11 @@ a {
 
 .identity-item {
   width: 34%;
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .identity-title {
-  font-size: 2.8rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: normal;
 }
@@ -2292,7 +2293,7 @@ a {
 }
 
 .identity-text {
-  font-size: 1.8rem;
+  font-size: 2.6rem;
   font-weight: 300;
   line-height: 4.6rem;
 }
