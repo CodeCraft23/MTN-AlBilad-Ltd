@@ -110,19 +110,18 @@ a {
 .header-navbar-mobile {
   position: absolute;
   top: 5rem;
-  left: -23rem;
+  left: -1rem;
   z-index: 10;
   width: 25rem;
   padding: 15px 15px 20px;
   display: none;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(14 31 33 / 53%);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
