@@ -20,23 +20,11 @@
 }
 
 @media (max-width: 1120px) {
-  .header-nav-link 
-  {
+  .header-nav-link {
     display: none;
   }
 
-  .header-nav-hamburger {
-    display: block;
-  }
-
-  .header-nav-vertical-seperator {
-      display: none;
-  }
-
-  .header-nav-search {
-      display: none;
-    }
-  }
+  
 
   @media (max-width: 1120px) {
     .header-nav-flag {
@@ -46,6 +34,10 @@
     .header-nav-flag-res > img{
     margin: 5% 0 0 42%;
     }
+
+  .header-nav-hamburger {
+    display: block;
+  }
 
   .hire-us {
     flex-direction: column;
@@ -269,6 +261,15 @@
   .work-center-image {
     width: 20rem;
   }
+
+  .header-nav-vertical-seperator {
+    display: none;
+  }
+
+  .header-nav-search {
+    display: none;
+  }
+}
 
 @media (max-width: 950px) {
   .places-right {

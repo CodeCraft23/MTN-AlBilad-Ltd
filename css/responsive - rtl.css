@@ -338,6 +338,14 @@ body{
     width: 100%;
   }
 
+  .header-nav-vertical-seperator {
+    display: none;
+  }
+
+  .header-nav-search {
+    display: none;
+  }
+
 }
   .services-banner > img {
     display: none;
