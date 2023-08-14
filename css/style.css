@@ -220,6 +220,8 @@ a {
 }
 
 .header-nav-search > i:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   color: #51a5b3;
 }
 

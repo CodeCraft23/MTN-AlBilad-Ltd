@@ -172,7 +172,7 @@ a {
 
 .header-nav-link {
   font-size: 1.8rem;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   padding: 8px 0;
   border: 1px solid transparent;
@@ -374,7 +374,7 @@ a {
 }
 
 .hero-content > img {
-  width: 60%;
+  width: 40%;
   position: absolute;
   top: 5rem;
 }
@@ -729,15 +729,15 @@ a {
 
 .places-text {
   font-size: 2.8rem;
-  font-weight: 500;
+  font-weight: 300;
   color: #262626;
   line-height: 7rem;
   margin-top: 2.5rem;
 }
 
 .places-title {
-  font-size: 2.4rem;
-  font-weight: 700;
+  font-size: 3.4rem;
+  font-weight: 400;
   text-transform: uppercase;
   margin-top: 5rem;
 }
@@ -753,6 +753,7 @@ a {
 
 .places-right > img {
   width: 100%;
+  transform: scaleX(-1)
 }
 
 .projects {
@@ -2326,10 +2327,10 @@ a {
 
 .home-projects > img {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -57px;
+  right: 0;
   max-width: 80rem;
-  width: 98%;
+  width: 50%;
   z-index: -1;
 }
 
