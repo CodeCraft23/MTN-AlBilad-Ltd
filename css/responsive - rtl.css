@@ -80,7 +80,6 @@
 
 body{
   direction: rtl;
-  font-family: 'MadaniArabic';
 }
 
 @media (max-width: 1400px) {
@@ -520,11 +519,7 @@ body{
   .hero-swiper .swiper-rtl .swiper-button-next {
     display: none;
   }
-
-  .swiper-slide > img {
-    top: 50%;
-  }
-
+  
   .we-content {
     flex-direction: column;
   }
