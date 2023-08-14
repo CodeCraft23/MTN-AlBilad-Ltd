@@ -1904,6 +1904,7 @@ a {
 .talent-decorative > img {
   position: absolute;
   top: 5rem;
+  transform: scaleX(-1)
 }
 
 .growth {
@@ -1930,7 +1931,6 @@ a {
 
 .gowth-item {
   flex: 1;
-  margin-top: 5rem;
 }
 
 .gowth-item > img {
@@ -1940,7 +1940,7 @@ a {
 }
 
 .growth-title {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 400;
   line-height: normal;
 }
