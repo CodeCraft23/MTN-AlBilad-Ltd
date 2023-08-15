@@ -11,6 +11,20 @@
   outline: none;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #51a5b3; 
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -24,6 +38,57 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   color: #ffffff;
+}
+
+#loader {
+    position: fixed;
+    background-color: #FFF;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    -webkit-animation: load-out 1s;
+    animation: load-out 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.loading-div{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  top: 40%;
+  position: relative;
+}
+
+.loading-div > img{
+  width: 10em;
+}
+
+@-webkit-keyframes load-out {
+  from {
+      top: 0;
+      opacity: 1;
+  }
+
+  to {
+      top: 100%;
+      opacity: 0;
+  }
+}
+
+@keyframes load-out {
+  from {
+      top: 0;
+      opacity: 1;
+  }
+
+  to {
+      top: 100%;
+      opacity: 0;
+  }
 }
 
 img,
