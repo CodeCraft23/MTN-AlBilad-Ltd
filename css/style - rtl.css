@@ -17,14 +17,13 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #51a5b3; 
+  background: #f1f1f1;
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #51a5b3;
+}
 
 html {
   font-size: 62.5%;
@@ -138,7 +137,7 @@ body {
 
 #loader {
   position: fixed;
-  background-color: #FFF;
+  background-color: #fff;
   opacity: 1;
   height: 100%;
   width: 100%;
@@ -151,40 +150,40 @@ body {
   animation-fill-mode: forwards;
 }
 
-.loading-div{
-display: table;
-margin-right: auto;
-margin-left: auto;
-top: 40%;
-position: relative;
+.loading-div {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  top: 40%;
+  position: relative;
 }
 
-.loading-div > img{
-width: 10em;
+.loading-div > img {
+  width: 10em;
 }
 
 @-webkit-keyframes load-out {
-from {
+  from {
     top: 0;
     opacity: 1;
-}
+  }
 
-to {
+  to {
     top: 100%;
     opacity: 0;
-}
+  }
 }
 
 @keyframes load-out {
-from {
+  from {
     top: 0;
     opacity: 1;
-}
+  }
 
-to {
+  to {
     top: 100%;
     opacity: 0;
-}
+  }
 }
 
 img,

@@ -17,12 +17,12 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #51a5b3; 
+  background: #51a5b3;
 }
 
 html {
@@ -41,21 +41,21 @@ body {
 }
 
 #loader {
-    position: fixed;
-    background-color: #FFF;
-    opacity: 1;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    -webkit-animation: load-out 1s;
-    animation: load-out 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  position: fixed;
+  background-color: #fff;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  -webkit-animation: load-out 1s;
+  animation: load-out 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-.loading-div{
+.loading-div {
   display: table;
   margin-right: auto;
   margin-left: auto;
@@ -63,31 +63,31 @@ body {
   position: relative;
 }
 
-.loading-div > img{
+.loading-div > img {
   width: 10em;
 }
 
 @-webkit-keyframes load-out {
   from {
-      top: 0;
-      opacity: 1;
+    top: 0;
+    opacity: 1;
   }
 
   to {
-      top: 100%;
-      opacity: 0;
+    top: 100%;
+    opacity: 0;
   }
 }
 
 @keyframes load-out {
   from {
-      top: 0;
-      opacity: 1;
+    top: 0;
+    opacity: 1;
   }
 
   to {
-      top: 100%;
-      opacity: 0;
+    top: 100%;
+    opacity: 0;
   }
 }
 
